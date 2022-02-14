@@ -1,0 +1,15 @@
+// Contains the operating system name in lower case
+const string OS_NAME = "linux";
+
+// Contains the native path separator
+const char PATH_SEPARATOR = '/';
+
+// Returns if the current OS is Linux
+f<bool> isLinux() {
+    return true;
+}
+
+// Returns if the current OS is Windows
+f<bool> isWindows() {
+    return false;
+}

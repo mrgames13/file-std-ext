@@ -1,0 +1,80 @@
+// Converts a string to a double
+f<double> toDouble(string input) {
+    // ToDo: implement
+    return 0.0;
+}
+
+// Converts a string to an int
+f<int> toInt(string input) {
+    if input == "" {
+        return 0;
+    }
+
+    bool neg = false;
+    
+
+    // ToDo: implement the rest
+    return 0;
+}
+
+// Converts a string to a short
+f<short> toShort(string input) {
+    if input == "" {
+        return (short) 0;
+    }
+
+    bool neg = false;
+    
+
+    // ToDo: implement the rest
+    return (short) 0;
+}
+
+// Converts a string to a long
+f<long> toLong(string input) {
+    if input == "" {
+        return (long) 0;
+    }
+
+    bool neg = false;
+    
+
+    // ToDo: implement the rest
+    return (long) 0;
+}
+
+// Converts a string to a byte
+f<byte> toByte(string input) {
+    if input == "" {
+        return (byte) 0;
+    }
+
+    bool neg = false;
+    
+
+    // ToDo: implement the rest
+    return (byte) 0;
+}
+
+// Converts a string to a char
+f<char> toChar(string input) {
+    // ToDo: Implement
+    return '0';
+}
+
+// Converts a string to a bool
+f<bool> toBool(string input) {
+    return input == "true";
+}
+
+// Returns the length of a string
+f<int> len(string input) {
+    //for result = 0; input[result] != '\0'; result++ {}
+    return 0;
+}
+
+// Returns true if the input string contains the input substring
+f<bool> contains(string input, string substring) {
+    // ToDo: implement
+    return false;
+}

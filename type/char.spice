@@ -1,0 +1,38 @@
+const int SIZE = 8;
+const char MIN_VALUE = (char) 0;
+const char MAX_VALUE = (char) 255;
+
+// Converts a char to a double
+f<double> toDouble(char input) {
+    return 0.0;
+}
+
+// Converts a char to an int
+f<int> toInt(char input) {
+    return (int) input;
+}
+
+// Converts a char to a short
+f<short> toShort(char input) {
+    return (short) input;
+}
+
+// Converts a char to a long
+f<long> toLong(char input) {
+    return (long) input;
+}
+
+// Converts a char to a byte
+f<byte> toByte(char input) {
+    result = (byte) input;
+}
+
+// Converts a char to a string
+f<string> toString(char input) {
+    return "0";
+}
+
+// Converts a char to a bool
+f<bool> toString(char input) {
+    return input == '1';
+}
